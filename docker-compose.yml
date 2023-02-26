@@ -22,9 +22,9 @@ services:
         - POSTGRES_DB=statsdb
         - POSTGRES_USER=root
         - POSTGRES_PASSWORD=root
-#  ewm-service:
-#    build: main
-#    container_name: main
+  ewm-service:
+    build: main
+    container_name: main
 #
 #
 #    ports:
